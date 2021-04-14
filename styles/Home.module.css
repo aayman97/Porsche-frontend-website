@@ -1,0 +1,136 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  flex-direction: column;
+  background: #28324d;
+  display : flex;
+  text-align:center ;
+}
+.contact{
+  background-color: #aeb5cf;
+  border: none;
+  color: white;
+  padding: 6px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 15px 2px;
+  cursor: pointer;
+  transform: skew(-15deg);
+  font-family: GiloryBold;
+}
+.navbar{
+display : flex;
+justify-content:space-between ;
+align-items: center;
+padding : 15px 20px
+}
+.ul{
+  display : flex;
+  list-style: none;
+}
+.ul li{
+  padding-left: 70px;
+}
+.ul a{
+  color :#7d7b7f;
+  font-family:sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+}
+.ul a:hover{
+  color : black
+}
+.porscheBrand{
+  font-family: porsche;
+  color : white;
+  font-size: 80px;
+  font-style: oblique;
+  padding-top: 30px;
+}
+.porscheDetails{
+  color : white;
+  opacity: 0.6;
+  font-style: italic;
+  font-size: 18px;
+  padding-right: 17%;
+  font-family: sans-serif;
+  font-weight: 500;
+  position: relative;
+  bottom : 12px
+}
+.porscheCar{
+  width: 80%;
+  height : 20%
+}
+.imageContainer{
+  width : 60%;
+  height : 350px;
+  align-self: center;
+  display : flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .bottomData{
+    width:86%;
+    height : 170px;
+    display : flex;
+    align-self: center;
+    padding-top: 70px;
+    
+  }
+  .leftData{
+    width:40%;
+    height : 100%;
+    text-align: left;
+    display : flex;
+    justify-content:center;
+    flex-direction: column;
+  }
+  .rightData{
+    width:60%;
+    height : 100%;
+    border-top: 1px solid #aeb5cf  ;
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .bookAtest{
+    color : #aeb5cf;
+    font-family: GiloryBold;
+    font-weight: 200;
+  }
+  .aBook{
+    color : #aeb5cf;
+    font-family: GiloryBold;
+    font-weight: 200;
+    opacity: 0.5;
+  }
+  .northPort{
+    color : #aeb5cf;
+    font-family: GiloryBold;
+    font-weight: 200;
+    opacity: 0.5;
+    padding-left: 3px;
+    font-size: 12px;
+  }
+  .paragraph{
+    text-align: left;
+    color : #aeb5cf;
+    font-family: GiloryBold;
+    font-weight: 200;
+    opacity: 0.5;
+    max-lines: 3;
+    width : 70%;
+    font-size: 13px;
+    padding-top: 10px;
+  }
+  .details{
+    color : #aeb5cf;
+    font-family: GiloryBold;
+    font-weight: 200;
+    opacity: 0.5;
+    align-self: baseline;
+    padding-top: 16px;
+  }
